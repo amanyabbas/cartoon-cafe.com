@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/bcss/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/mycss.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.min.css">
+</head>
+
+<body>
+  <!--navbar begin-->
+
+  <nav class="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark opacity-75 ">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand text-light" href="#">
+        <img src="./images/LogoMakr-777Eyk.png" alt="" width="20%" class="d-inline-block align-text-bottom ">
+       BLACK & WHITE
+      </a>
+      <div class="collapse navbar-collapse " id="mynavbar">
+        <ul class="navbar-nav  ">
+          <li class="nav-item" active>
+            <a class="nav-link " href="index.html#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasRight" aria-controls="offcanvasRight">
+              Menu
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-end sid-nav p-5 " data-bs-scroll="true" tabindex="-1" id="offcanvasRight"
+    aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel" class="card-title about-title">menu</h5>
+      <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+        aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+      <nav class="nav  flex-column m-4">
+        <a class="nav-link active pb-4" href="#hotdrinks"> Hot Drinks</a>
+        <a class="nav-link active pb-4" href="#colddrinks"> Cold Drinks</a>
+        <a class="nav-link pb-4 " href="#sweets">Sweets</a>
+        <a class="nav-link pb-4" href="#cake">cake</a>
+      </nav>
+
+    </div>
+  </div>
+
+
+  <!--navbar end-->
+
+  <!--menu start-->
+  <section id="hotdrinks" class="bg-dark menu">
+    <h2>Hot Drinks Menu</h2>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-3">
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/hot1.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/hot2.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/hot3.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/hot4.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <section id="colddrinks" class="bg-dark menu">
+    <h2>Clod Drinks Menu</h2>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-3">
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/cold1.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/cold2.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/cold3.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/cold4.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="sweets" class="bg-dark menu">
+    <h2>Sweets Menu</h2>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3">
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/dessert1.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/dessert2.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/dessert3.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    
+
+  </section>
+  <section id="cake" class="bg-dark menu">
+    <h2>Cake Menu</h2>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3">
+
+        <div class="col  ">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/cake1.png" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col  ">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/cake2.jpeg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col ">
+          <div class="card card-menu">
+            <div class="image" >
+              <img src="./images/cake3.jpg" class="card-image" alt="...">
+            </div>
+            <div class="card-disc ">
+              <h5>chocolate balls</h5>
+              <div class="desc">
+                <span>Lorem ipsum dolo a repellendus iste culpa!</span> 
+              </div>
+              <div class="price">
+                <h3>price</h3>
+                <span>70$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+  <!--menu end-->
+
+
+
+
+
+
+
+  <!--footer begin-->
+  <footer class=" bd-footer ">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 mb-3">
+        
+           <img src="./images/LogoMakr-777Eyk.png" alt="" width="25%" class="d-inline-block align-text-bottom ">
+           <span>BLACK & WHITE</span> 
+           <p class="mt-2">Lorem ipsum dolor sit a quasi magni ullam ipsa id rem itaque consectetur at reprehenderit?</p>
+          
+        </div>
+       
+        <div class="col-6 col-lg-3 mb-3 offset-lg-1">
+          <h5>links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="index.html#home">Home</a>
+            </li>
+            <li class="mb-2">
+              <a href="index.html#about">About</a>
+            </li>
+            <li class="mb-2">
+              <a data-bs-toggle="offcanvas" href="#offcanvasRight" aria-controls="offcanvasRight">Menu</a>
+            </li>
+            <li class="mb-2">
+              <a href="#home">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-3 mb-3">
+          <h5>Adress</h5>
+          <p>Lorem, ipsumor optio, doloribus quaerat eum perferendis, amet quos!</p>
+        </div>
+       
+      </div>
+
+    </div>
+  </footer>
+  <!--footer end-->
+
+  <script src="./bjs/bootstrap.js"></script>
+
+</body>
+
+</html>

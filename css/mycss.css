@@ -1,0 +1,321 @@
+@import url(../partials/variables.css);
+@import url(./fonts.css);
+
+/*start navbar styling */
+
+
+.navbar-brand{
+    text-transform: uppercase;
+    font: normal bold 20px var(--title-font);
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.nav-link {
+    color:white !important;
+   letter-spacing: 2px;
+   font: normal bold 20px var(--title-font);
+}
+
+.nav-item .nav-link:hover{
+    background: white;
+    opacity: 75%; 
+    color: black !important;
+    border-radius: 1.5rem;
+}
+ 
+/*end navbar styling */
+
+/*start home section styling*/
+
+
+.carousel-item{
+    height: 100vh;
+    background-position: center;
+    -webkit-background-size:cover;
+    background-size: cover;   
+} 
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left: 0;
+    background: #000;
+    opacity:0.3;
+}
+
+.carousel-caption{
+    bottom: 35%;
+}
+
+.carousel-caption h5{
+    font: normal bold 75px var(--title-font);
+}
+.carousel-caption p{  
+    font: normal 25px var(--text-font);
+}
+
+
+/*end home section styling*/
+
+
+/*start about styling*/
+.about{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/aboutx.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0 ;  
+}
+
+.card-about{
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+}
+.cb1{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.about-title{
+    text-transform: uppercase;
+    font: normal bold 50px var(--title-font);
+
+}
+
+.about p{  
+    font: normal 25px var(--text-font);
+}
+.btn{
+    text-align: center;
+    border-radius: 2rem;
+}
+.btn:hover{
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+/*end about styling*/
+
+/*start information styling*/
+
+
+.information .time,.address{
+    padding: 2rem 1rem;
+}
+
+.information .address h2,
+.information .time h2{
+    text-shadow: 0 0 4rem #000;
+    font: normal bold 50px var(--text-font);
+}
+
+.information .address p,
+.information .time p{
+    font: normal  20px var(--text-font);
+}
+
+.information .time span{
+    color: red;
+    font-size: 2rem;
+}
+
+
+/*end information styling*/
+
+
+/*start menu styling */
+
+.sid-nav{
+    background-color: #000;
+    color: white;
+    opacity: 75%;
+}
+.sid-nav a:hover{
+    background-color: white;
+    color: black !important;
+    border-radius: 2rem;
+
+}
+
+.menu{
+    padding: 4rem;
+    background-image: url(../images/menu1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font: normal bold 50px var(--title-font);
+
+}
+
+
+.container .card-menu{
+    height: 500px;
+    overflow: hidden;
+    border: solid black;
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.container .card .card-image{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+
+.container .card:hover .card-image{
+    height: 500px;
+}
+
+
+.container .card .card-disc{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    transition: 1s;
+    opacity: 75%;
+    
+
+}
+
+.container .card:hover .card-disc{
+    height: 40%;
+
+}
+
+.container .card .card-disc h5{
+    background-color: #000;
+    color: white; 
+    position: relative;
+    text-transform: uppercase;
+    font: normal bold 30px var(--title-font);
+    
+    
+}
+
+.container .card .card-disc .desc,
+.container .card .card-disc .price{
+    height: 30%;
+    display: flex;
+    padding: 8px 20px;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    font: normal 20px var(--text-font);
+    background-color: #000;
+    color: white;
+    
+
+}
+
+
+.container .card .card-disc .price h3{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px;
+
+}
+
+.container .card .card-disc .price span{
+    color: red;
+    font-size: 30px;
+}
+
+.container .card:hover .card-disc .desc{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+
+}
+.container .card:hover .card-disc .price{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+
+}
+
+
+/*end menu styling */
+
+
+/*start footer styling */
+
+.bd-footer{
+    background:black;
+    color: white;  
+}
+
+.bd-footer span{
+    text-transform: uppercase;
+    font: normal bold 20px var(--title-font);
+}
+
+.bd-footer a,
+.bd-footer p{
+    text-decoration: none;
+    color: white;
+    font: normal 20px var(--text-font);
+}
+
+.bd-footer h5{
+    font: normal 30px var(--text-font);
+}
+
+
+
+
+
+/*end footer styling */
+
+
+/*css for mobile phone*/
+@media only screen and (max-width:768px)
+{
+    .container .card-menu{
+        height: 430px;
+        
+    }
+    .carousel-item{
+        height: 50vh;
+    }
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .carousel-caption h5{
+        font: normal bold 25px var(--title-font);
+    }
+    .carousel-caption p{  
+        font: normal 15px var(--text-font);
+    }
+    
+    
+   
+    
+}
